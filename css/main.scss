@@ -1,0 +1,119 @@
+
+@import "letras/_letras";
+@import "skills/_skills";
+
+
+* {
+
+	margin:0px;
+	padding: 0px;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+#portada {
+
+	background-image: url(../images/blackball.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 670px;
+}
+
+
+
+
+ #inspiracion {
+
+ 	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: black;
+	text-shadow: 2px 2px 2px aqua;
+
+	img {
+
+	border-radius: 500px;
+	width: 20%;
+	text-align: center;
+
+}
+
+p {
+
+	color: black;
+	text-shadow: 2px 2px 2px aqua;
+}
+
+i {
+	color: black;
+	text-shadow: 2px 2px 2px aqua;
+}
+
+  em {
+
+	color: black;
+	text-shadow: 2px 2px 2px aqua;
+
+	}
+}
+
+#conoceme {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: black;
+	text-shadow: 2px 2px 2px aqua;
+
+h2 {
+
+	color: black;
+}
+	
+hr {
+
+	width: 50%;
+
+}
+}
+
+#skills {
+
+	background-image: url(../images/1.jpg);
+	background-size: 100%;
+	height: 850px;
+}
+
+#contacto {
+
+	background-image: url(../images/light.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	height: 500px;
+	h2 {
+
+		color: aqua;
+	}
+
+	.yo {
+
+		font-size: 16px;
+
+		i {
+			font-size: 30px;
+			padding-right: 3%;
+			color: aqua;
+		}
+	}
+}
+
+footer {
+
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 30px;
+	
+	.lab {
+
+	color: black;
+
+	}
+}
+
